@@ -32,8 +32,8 @@ function App() {
     const name = e.target.elements[0].value;
     const sr_number = e.target.elements[1].value;
     const branch = e.target.elements[2].value;
-    const date = e.target.elements[3].value;
-    const grade = e.target.elements[4].value;
+    const date = e.target.elements[4].value;
+    const grade = e.target.elements[3].value;
     const tx = await factoryContract.createContract(
       name,
       sr_number,
@@ -120,11 +120,11 @@ function App() {
           </p>
           <p>
             <h4>Date of Graduation :</h4>
-            {grade}
+            {date}
           </p>
           <p>
             <h4>Grade :</h4>
-            {date}
+            {grade}
           </p>
         </div>
       </div>
