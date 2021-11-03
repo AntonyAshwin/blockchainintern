@@ -4,7 +4,7 @@ import getBlockchain from "./ethereum.js";
 function App() {
   const [factoryContract, setFactoryContract] = useState(undefined);
   const [name, setName] = useState(undefined);
-  const [contractAddresses, setContractAddresses] = useState(undefined);
+  const [contractAddresses, setContractAddresses] = useState([]);
   const [owner, setOwner] = useState(undefined);
   const [sr_number, setSrNumber] = useState(undefined);
   const [branch, setBranch] = useState(undefined);
@@ -101,7 +101,7 @@ function App() {
           <hr />
 
           <p>
-            <h3>Contract Address : </h3> {contractAddresses}
+            <h3>Contract Address : </h3> {contractAddresses.slice(-1)}
           </p>
           <p>
             <h3>Owner Address : </h3> {owner}
