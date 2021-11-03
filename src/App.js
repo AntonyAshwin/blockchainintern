@@ -80,6 +80,7 @@ function App() {
         <form className="form-inline" onSubmit={e => first_div(e)}>
        
             <input 
+              width = "90px"
               type="text" 
               className="form-control" 
               placeholder="Contract Address"
@@ -88,7 +89,7 @@ function App() {
               type="submit" 
               className="btn btn-primary"
             >
-              Submit
+              Verify
             </button>
             
             </form>
