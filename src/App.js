@@ -101,7 +101,7 @@ function App() {
           <hr />
 
           <p>
-            <h3>Contract Address : </h3> {contractAddresses}
+            <h3>Contract Address : </h3> {contractAddresses.slice(-1)}
           </p>
           <p>
             <h3>Owner Address : </h3> {owner}
