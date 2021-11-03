@@ -52,6 +52,20 @@ function App() {
     setDate(date);
     setGrade(grade);
   };
+  
+  const first_div = async e => {
+    e.preventDefault();
+    var address = e.target.elements[0].value;
+    var result = " ";
+    if((contractAddresses.indexOf(address) > -1) === true){
+      alert("works");
+      result = "Contract Address is genuine and certified ";
+    }
+    else {
+      alert("still works");
+      result = "Unknown/Unauthorized Contract Address ";
+    }
+  };
 
   if (typeof factoryContract === "undefined") {
     return "Loading...";
