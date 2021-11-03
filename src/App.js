@@ -60,6 +60,27 @@ function App() {
   return (
     <div className="container">
       <div className="row">
+    <div className='col-sm-6'>
+
+        <h2>Certificate Verification </h2>
+        <form className="form-inline" onSubmit={e => first_div(e)}>
+        <p>{result}</p>
+            <input 
+              type="text" 
+              className="form-control" 
+              placeholder="Contract Address"
+            />
+             <button 
+              type="submit" 
+              className="btn btn-primary"
+            >
+              Submit
+            </button>
+            
+            </form>
+            
+        </div>
+
         <div className="col-sm-6">
           <h2>Certificate Embedment </h2>
           <form
