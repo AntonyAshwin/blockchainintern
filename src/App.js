@@ -58,7 +58,7 @@ function App() {
     var address = e.target.elements[0].value;
     
     if((contractAddresses.indexOf(address) > -1) === true){
-      alert("Certificate Authentic");
+      alert("Authentic Certificate");
       
     }
     else {
