@@ -58,11 +58,11 @@ function App() {
     var address = e.target.elements[0].value;
     
     if((contractAddresses.indexOf(address) > -1) === true){
-      alert("works");
+      alert("Certificate Authentic");
       
     }
     else {
-      alert("still works");
+      alert("Abnormal/Unauthroized Certificate");
     
     }
   };
