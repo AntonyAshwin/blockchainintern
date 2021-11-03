@@ -78,7 +78,7 @@ function App() {
 
         <h2>Certificate Verification </h2>
         <form className="form-inline" onSubmit={e => first_div(e)}>
-        <p>{result}</p>
+       
             <input 
               type="text" 
               className="form-control" 
