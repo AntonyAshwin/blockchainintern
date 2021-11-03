@@ -130,8 +130,8 @@ function App() {
           <p><h4>Name :</h4>{name}</p>
           <p><h4>Serial Number :</h4>{sr_number}</p>
           <p><h4>Branch :</h4>{branch}</p>
-          <p><h4>Date of Graduation :</h4>{date}</p>
-          <p><h4>Grade :</h4>{grade}</p>
+          <p><h4>Grade :</h4>{date}</p>
+          <p><h4>Date of Graduation :</h4>{grade}</p>
         </div>
 
       </div>
