@@ -120,11 +120,11 @@ function App() {
           </p>
           <p>
             <h4>Date of Graduation :</h4>
-            {date}
+            {grade}
           </p>
           <p>
             <h4>Grade :</h4>
-            {grade}
+            {date}
           </p>
         </div>
       </div>
