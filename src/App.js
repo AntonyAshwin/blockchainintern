@@ -62,7 +62,7 @@ function App() {
       
     }
     else {
-      alert("Abnormal/Unauthroized Certificate");
+      alert("Abnormal/Unauthorized Certificate");
     
     }
   };
