@@ -68,7 +68,7 @@ function App() {
   };
 
   if (typeof factoryContract === "undefined") {
-    return "Loading...";
+    return "Install MetaMask and connect to BSC TestNet to access the site.";
   }
 
   return (
