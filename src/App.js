@@ -166,8 +166,10 @@ function App() {
         </div>
 
       </div>
+<hr>
+<hr>
 <p>Any queries regarding this decentralised application, hit me up on discord : Ahswin#6122</p>
- <p>Wanna dontate ? this is my Etherium/BAT wallet address : 0x27Ccc2bc5a7DCaF14380605C0a3962E67D8bBAFF</p>
+ <p>Wanna donate ? this is my Etherium/BAT wallet address : 0x27Ccc2bc5a7DCaF14380605C0a3962E67D8bBAFF</p>
     </div>
            
           
