@@ -162,10 +162,12 @@ function App() {
             <h4>Grade :</h4>
             {grade}
           </p>
+
+        </div>
+
+      </div>
 <p>Any queries regarding this decentralised application, hit me up on discord : Ahswin#6122</p>
  <p>Wanna dontate ? this is my Etherium/BAT wallet address : 0x27Ccc2bc5a7DCaF14380605C0a3962E67D8bBAFF</p>
-        </div>
-      </div>
     </div>
            
           
