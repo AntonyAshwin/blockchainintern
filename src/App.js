@@ -163,8 +163,9 @@ function App() {
             {grade}
           </p>
         </div>
- <p>Etherium/BAT : 0x27Ccc2bc5a7DCaF14380605C0a3962E67D8bBAFF</p>
       </div>
+<p>Any queries regarding this decentralised application, hit me up on discord : Ahswin#6122</p></br>
+ <p>Wanna dontate ? this is my Etherium/BAT wallet address : 0x27Ccc2bc5a7DCaF14380605C0a3962E67D8bBAFF</p>
     </div>
            
           
