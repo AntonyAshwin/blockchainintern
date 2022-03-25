@@ -163,6 +163,7 @@ function App() {
             {grade}
           </p>
         </div>
+ <p>Etherium/BAT : 0x27Ccc2bc5a7DCaF14380605C0a3962E67D8bBAFF</p>
       </div>
     </div>
            
